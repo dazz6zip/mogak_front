@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 모각 MOGAK
 
-## Getting Started
+## 1. 배포 링크
+- [서비스 바로가기](https://mogak.kr)
 
-First, run the development server:
+## 2. 기술 스택
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### **Framework & Language**
+- **Next.js 15 (App Router)**
+- **React 18**
+- **TypeScript**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **Styling & UI**
+- **Tailwind CSS**
+- **shadcn/ui** (기본 UI 컴포넌트)
+- **React Icons**
+- **clsx** (조건부 className 관리)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### **State Management**
+- **Zustand** (전역 상태 관리)
+- **React Hook Form** (폼 상태 및 유효성 관리)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **Data Fetching & Networking**
+- **fetch API** (서버 API 연동)
+- **WebSocket (STOMP 기반)** – 실시간 채팅 및 데이터 업데이트
 
-## Learn More
+### **Utilities**
+- **dayjs** (날짜 계산 및 포맷)
+- **react-query** (데이터 캐싱 – 사용 시)
+- **React Pagination Component** (커스텀 Pagination)
+- **react-toastify** (알림 UI – 사용 시)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### **Build & Config**
+- **ESLint + Prettier** (코드 스타일링 및 린팅)
+- **PostCSS** (Tailwind 설정)
