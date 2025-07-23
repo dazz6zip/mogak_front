@@ -28,7 +28,6 @@
 - **dayjs** (날짜 계산 및 포맷)
 - **react-query** (데이터 캐싱 – 사용 시)
 - **React Pagination Component** (커스텀 Pagination)
-- **react-toastify** (알림 UI – 사용 시)
 
 ### **Build & Config**
 - **ESLint + Prettier** (코드 스타일링 및 린팅)
