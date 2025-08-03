@@ -12,9 +12,7 @@
 
 ### **Styling & UI**
 - **Tailwind CSS**
-- **shadcn/ui** (기본 UI 컴포넌트)
 - **React Icons**
-- **clsx** (조건부 className 관리)
 
 ### **State Management**
 - **Zustand** (전역 상태 관리)
@@ -26,7 +24,7 @@
 
 ### **Utilities**
 - **dayjs** (날짜 계산 및 포맷)
-- **react-query** (데이터 캐싱 – 사용 시)
+- **react-query** (데이터 캐싱)
 - **React Pagination Component** (커스텀 Pagination)
 
 ### **Build & Config**
